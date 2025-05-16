@@ -1,0 +1,73 @@
+.login-wrapper{
+    height: 100vh;
+    width:100%;
+    background-color: rgb(36, 33, 33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.login-container{
+    height: 450px;
+    width:60%;
+    background-color: #eee;
+    box-shadow: 5px 5px 10px #eee;
+    display: flex;
+}
+.login-boxes{
+    height: 450px;
+    width: 50%;
+    /* background-color: red; */
+    padding: 20px;
+}
+.login-left{
+    background-image:url('../../assets/invoice.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login-right{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.login-heading{
+    font-size: 25px;
+    /* text-align: center; */
+}
+.login-input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.login-btn{
+    border: none;
+    background-color: rgb(21, 21, 170);
+    font-size: 15px;
+    color: white;
+}
+.login-btn:hover{
+    background-color: hotpink;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.register-link{
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+.register-p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.image-preview{
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
