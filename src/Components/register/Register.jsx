@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-import '../login/login.css'
+import '../login/Login.css'
 import { Link, useNavigate } from 'react-router-dom'
 import {auth, storage, db} from '../../firebase'
 import {createUserWithEmailAndPassword, updateProfile} from 'firebase/auth'
